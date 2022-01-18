@@ -1,7 +1,6 @@
 // Configure the Google Cloud provider
 provider "google" {
- credentials = file("CREDENTIALS_FILE.json")
- project     = "gcpmapspicture"
+ project     = "myprojectGCPMapsPicture"
  region      = "us-west1"
 }
 
